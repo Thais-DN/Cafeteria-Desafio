@@ -50,7 +50,7 @@ function Info() {
             </div>
             <div>
                 <img
-                    src="public/assents/imagem.png"
+                    src="public/imagem.png"
                     alt="Copo de café com tampa, com grão de café e café moído de fundo"
                 />
             </div>

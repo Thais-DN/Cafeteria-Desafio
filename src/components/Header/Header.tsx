@@ -5,7 +5,7 @@ function Header() {
         <div className="flex justify-between my-8">
             <div>
                 <img
-                    src="assents/Logo.svg"
+                    src="/Logo.svg"
                     alt="logo: copo de café com tampa e nome da empresa ao lado"
                 />
             </div>
