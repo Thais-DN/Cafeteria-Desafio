@@ -1,5 +1,13 @@
+import Header from "./components/Header/Header";
+import Info from "./components/Info/Info";
+
 function App() {
-    return <h1>Hello World</h1>;
+    return (
+        <div className="">
+            <Header />
+            <Info />
+        </div>
+    );
 }
 
 export default App;
