@@ -2,7 +2,7 @@ import { Coffee, Package, ShoppingCart, Timer } from "@phosphor-icons/react";
 
 function Info() {
     return (
-        <div className="flex justify-between items-center mx-40 my-20">
+        <div className="flex justify-between items-center my-20">
             <div className="w-[588] space-y-8">
                 <div className="space-y-4">
                     <h1 className="font-extrabold text-4xl">

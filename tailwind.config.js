@@ -27,6 +27,9 @@ export default {
                 900: "#272221",
             },
         },
+        rounded: {
+            card: "300px",
+        },
     },
     plugins: [],
 };

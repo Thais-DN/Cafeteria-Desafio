@@ -2,7 +2,7 @@ import { MapPin, ShoppingCart } from "@phosphor-icons/react";
 
 function Header() {
     return (
-        <div className="flex justify-between mx-40 my-8">
+        <div className="flex justify-between my-8">
             <div>
                 <img
                     src="assents/Logo.svg"
