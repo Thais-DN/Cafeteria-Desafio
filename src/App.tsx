@@ -8,7 +8,7 @@ function App() {
         <div className="mx-40 mb-10">
             <Header />
             <Info />
-            <div className="grid grid-cols-4 gap-5 bg-black">
+            <div className="grid grid-cols-4 gap-5">
                 {COFFEE_LIST.map((coffee) => (
                     <div key={coffee.id} className="col-span-1">
                         <Card coffee={coffee} />
