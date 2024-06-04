@@ -41,9 +41,9 @@ function Card({ coffee }: CardProps) {
                 </div>
                 <div className="flex gap-2">
                     <Selector />
-                    <div className="p-2 bg-purple-Dark text-base-50 rounded-lg flex items-center">
-                        <ShoppingCart />
-                    </div>
+                </div>
+                <div className="p-2 bg-purple-Dark text-base-50 rounded-lg flex items-center">
+                    <ShoppingCart />
                 </div>
             </footer>
         </div>
