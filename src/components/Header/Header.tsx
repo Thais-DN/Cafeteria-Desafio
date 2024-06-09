@@ -1,4 +1,5 @@
 import { MapPin, ShoppingCart } from "@phosphor-icons/react";
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -15,7 +16,10 @@ function Header() {
                     <span className="text-purple-Dark">Santos, SP</span>
                 </div>
                 <div className="p-2 bg-yellow-Light rounded-lg">
+                <Link to={"/Shopping-Cart"}>
                     <ShoppingCart size={22} className="text-yellow-Dark" />
+                </Link>
+                    
                 </div>
             </div>
         </div>
