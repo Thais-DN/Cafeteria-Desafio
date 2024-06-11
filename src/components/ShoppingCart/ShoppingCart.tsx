@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
-import { MapPin, CreditCard, Bank, Money, CurrencyEur, CurrencyDollar } from "@phosphor-icons/react";
+import { MapPin, CreditCard, Bank, Money, CurrencyEur, CurrencyDollar, Trash } from "@phosphor-icons/react";
+import Selector from "../Card/Selector";
 
 const ShoppingCart: React.FC = () => {
   return (
@@ -53,10 +54,11 @@ const ShoppingCart: React.FC = () => {
               </div>
             </div>
             <div className="flex items-center">
-              <button className="bg-gray-200 p-1 rounded-lg">-</button>
-              <span className="mx-2">1</span>
-              <button className="bg-gray-200 p-1 rounded-lg">+</button>
-              <button className="ml-2 text-red-500">REMOVER</button>
+              <Selector />
+                <div className="flex">
+                    <Trash />
+                    <button className="ml-2 text-red-500">REMOVER</button>
+                </div>
             </div>
           </div>
           <div className="flex justify-between items-center mb-4">
@@ -68,10 +70,11 @@ const ShoppingCart: React.FC = () => {
               </div>
             </div>
             <div className="flex items-center">
-              <button className="bg-gray-200 p-1 rounded-lg">-</button>
-              <span className="mx-2">1</span>
-              <button className="bg-gray-200 p-1 rounded-lg">+</button>
-              <button className="ml-2 text-red-500">REMOVER</button>
+              <Selector />
+              <div className="flex">
+                    <Trash />
+                    <button className="ml-2 text-red-500">REMOVER</button>
+            </div>
             </div>
           </div>
           <div className="border-t pt-4">
